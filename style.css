@@ -1,3 +1,8 @@
 .mail-text {
 color: #FFFF37;
 }
+
+button {
+    background-color: #FFFF37;
+    box-shadow: 10px 10px 0px 2px hotpink;
+}
