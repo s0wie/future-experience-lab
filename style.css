@@ -1,6 +1,8 @@
+/* ******* GENERAL ******** */
 :root {
   --yellow: #ffff37;
   --pink: #e93794;
+  --black: #1d1d1c;
 }
 
 a {
@@ -10,6 +12,19 @@ a {
 h1 {
   font-family: "forma-djr-banner", sans-serif;
 }
+
+p {
+  font-family: "objektiv-mk1", sans-serif;
+}
+
+body {
+  background-color: var(--black);
+}
+
+/* *********************** */
+
+/* ******** SECTION 01 *********/
+
 .h1-button {
   width: 122px;
   height: 40px;
@@ -26,8 +41,28 @@ h1 {
   box-shadow: 1px 1px #000;
   transform: translateX(7px) translateY(7px);
 }
-/* button {
-  background-color: var(--yellow) !important;
 
-  /* box-shadow: 10px 10px 0px 2px #e93794; */
-/* } */
+.h1-img {
+  width: 100%;
+}
+.top {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+
+.img-container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.paper-ripped-top {
+  position: absolute;
+  bottom: 0px;
+}
+.paper-ripped-bottom {
+  position: absolute;
+  bottom: -80px;
+}
+
+/* *********************** */
