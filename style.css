@@ -1,8 +1,20 @@
-.mail-text {
-color: #FFFF37;
+/* :root {
+  --yellow: #ffff37;
+  --pink: #e93794;
+} */
+body {
+  font-family: "forma-djr-banner", sans-serif;
 }
+h1 {
+  /* font-family: "forma-djr-banner", sans-serif; */
+  font-weight: 900;
+  font-style: normal;
+}
+a{
+    font-family: "forma-djr-banner", sans-serif;
+}
+/* button {
+  background-color: var(--yellow) !important;
 
-button {
-    background-color: #FFFF37;
-    box-shadow: 10px 10px 0px 2px hotpink;
-}
+  /* box-shadow: 10px 10px 0px 2px #e93794; */
+/* } */
