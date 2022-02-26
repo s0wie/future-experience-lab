@@ -5,10 +5,6 @@
   --black: #1d1d1c;
 }
 
-a {
-  font-family: "forma-djr-banner", sans-serif;
-}
-
 h1 {
   font-family: "forma-djr-banner", sans-serif;
 }
@@ -66,3 +62,11 @@ body {
 }
 
 /* *********************** */
+
+@media (min-width: 768px) {
+  .h1-button {
+    width: 168px;
+    height: 55px;
+    font-size: 29px;
+  }
+}
