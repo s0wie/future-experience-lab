@@ -15,14 +15,9 @@ p {
 
 body {
   background-color: var(--black);
-  margin-left: 20px !important;
-  margin-right: 20px !important;
-
 }
 
 /* *********************** */
-
-
 
 /* ******** SECTION 01 *********/
 
@@ -65,6 +60,25 @@ body {
   display: none;
 }
 
+.lab-button{
+  width: 185px;
+  height: 33px;
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--yellow);
+  background-color: var(--pink);
+  box-shadow: 7px 7px var(--yellow);
+  transition-duration: 0.5s;
+}
+
+.footer-tagline {
+  font-family: "forma-djr-banner", sans-serif;
+}
+
+.mail-text {
+  font-family: objektiv-mk1, sans-serif;
+  font-weight: 500;
+}
 /* *********************** */
 
 @media (min-width: 768px) {
