@@ -78,6 +78,17 @@ body {
   background-repeat: no-repeat;
   height: 792px;
 }
+.contact-btn{
+  width: 175px;
+  height: 38px;
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--pink);
+  background-color: var(--yellow);
+  box-shadow: 7px 7px var(--pink);
+  transition-duration: 0.5s;
+  margin-bottom: 50px;
+}
 
 .footer-tagline {
   font-family: "forma-djr-banner", sans-serif;
