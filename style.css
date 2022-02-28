@@ -59,7 +59,7 @@ body {
 .h1-image-desktop {
   display: none;
 }
-
+/* *********VÅRA LAB ******* */
 .lab-button{
   width: 185px;
   height: 33px;
@@ -69,6 +69,7 @@ body {
   background-color: var(--pink);
   box-shadow: 7px 7px var(--yellow);
   transition-duration: 0.5s;
+  margin-bottom: 50px;
 }
 
 .footer-tagline {
