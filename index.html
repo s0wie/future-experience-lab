@@ -16,7 +16,7 @@
 
   <body class="text-white">
     <!-- ***** NAVBAR *****-->
-    <nav class="h-16 flex justify-between pt-6 pr-14 ml-5">
+    <nav class="h-16 flex justify-between pt-6 pr-5 ml-5">
       <div>
         <img
           class="h-8 md:hidden"
@@ -193,15 +193,15 @@
     </nav>
     <!-- ******MAIN****** -->
     <!-- SECTION 01 "Tillsammans provkör vi" -->
-    <section>
+    <section class="h-[900px]">
       <div class="heading">
         <img
-          class="h1-image-desktop h1-img mt-6 -z-10"
+          class="relative h1-image-desktop h1-img mt-6 -z-10"
           src="/images/Collage GBG 2.png"
           alt=""
         />
         <h1
-          class="text-4xl md:text-7xl mb-5 max-w-screen-sm ml-5 mt-8 pt-8 md:pt-40 md:ml-20"
+          class="header-text font-black text-4xl md:text-7xl mb-5 max-w-screen-sm ml-5 mt-8 pt-8 md:pt-40 md:ml-20"
         >
           TILLSAMMANS <span><br />PROVKÖR VI</span>
           <span class="text-fel_pink"
@@ -210,7 +210,7 @@
           ><span class="font-black text-fel_yellow">.</span>
         </h1>
         <!--BUTTONS with vanilla CSS -->
-        <div class="relative md:mt-20">
+        <div class="header-buttons md:mt-20">
           <button class="h1-button ml-5 md:ml-20">Vad vi gör</button>
           <button class="h1-button ml-5">Vilka vi är</button>
         </div>
@@ -274,13 +274,32 @@
     </section>
 
     <!-- SECTION 03 *****VÅRA PROJEKT***** -->
-    <section class="mt-[115px]">
+    <section class="mt-[115px] h-[700px] md:h-[1000px]">
       <h2 class="text-2xl md:text-5xl font-black mb-[31px] ml-[20px]">
         VÅRA
         <span class="text-2xl md:text-5xl font-black text-fel_pink"
           >PROJEKT</span
         ><span class="text-2xl md:text-5xl font-black text-fel_yellow">.</span>
       </h2>
+
+      <div class="project-slide">
+        <img
+          class="relative"
+          src="/images/Project_paper_background.png"
+          alt=""
+        />
+        <div class="project-title">Alfons Åberg</div>
+        <div
+          class="mt-[15px] bg-white w-[129px] h-[48px] flex items-center justify-center -ml-[25px] md:-ml-[1px]"
+        >
+          <h5 class="text-fel_pink font-bold text-xl ml-[39px]">LAB01</h5>
+        </div>
+        <div class="centered">
+          <div class="project-inside">
+            <img src="/images/Alfons_mobil.png" alt="" />
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- SECTION 04 *****VÅRA LABB***** -->

@@ -63,6 +63,38 @@ footer {
 .h1-image-desktop {
   display: none;
 }
+
+/* ********* VÅRA PROJEKT ******** */
+.project-slide {
+  width: 100%;
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.project-inside {
+  background-color: #e93794;
+  height: 300px;
+}
+
+.project-title {
+  background-color: #ffff37;
+  color: black;
+  padding: 1rem;
+  width: 10rem;
+  position: absolute;
+  top: 2rem;
+  left: 1rem;
+}
+/* *********************** */
+
 /* *********VÅRA LAB ******* */
 .lab-button {
   width: 185px;
@@ -82,7 +114,7 @@ footer {
   background-repeat: no-repeat;
   height: 792px;
 }
-.contact-btn{
+.contact-btn {
   width: 175px;
   height: 38px;
   font-size: 18px;
@@ -121,5 +153,15 @@ footer {
   }
   .test-drive-section {
     height: 1371px;
+  }
+
+  .header-text {
+    position: absolute;
+    top: 0;
+  }
+
+  .header-buttons {
+    position: absolute;
+    top: 25rem;
   }
 }
