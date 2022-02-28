@@ -60,7 +60,7 @@ body {
   display: none;
 }
 /* *********VÅRA LAB ******* */
-.lab-button{
+.lab-button {
   width: 185px;
   height: 33px;
   font-size: 18px;
@@ -70,6 +70,13 @@ body {
   box-shadow: 7px 7px var(--yellow);
   transition-duration: 0.5s;
   margin-bottom: 50px;
+}
+
+.test-drive-section {
+  background-image: url(/images/paper_background_section.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 792px;
 }
 
 .footer-tagline {
@@ -96,5 +103,8 @@ body {
   .h1-image-desktop {
     display: block;
     position: relative;
+  }
+  .test-drive-section {
+    height: 1371px;
   }
 }
