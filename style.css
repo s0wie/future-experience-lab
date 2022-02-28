@@ -17,6 +17,10 @@ body {
   background-color: var(--black);
 }
 
+footer {
+  width: 100%;
+}
+
 /* *********************** */
 
 /* ******** SECTION 01 *********/
