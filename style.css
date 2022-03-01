@@ -22,7 +22,10 @@ footer {
 }
 
 /* *********************** */
-.mobile-menu{
+
+/* ******** NAV *********/
+
+.mobile-menu {
   width: 100vw;
 }
 /* ******** SECTION 01 *********/
@@ -64,6 +67,11 @@ footer {
 
 .h1-image-desktop {
   display: none;
+}
+/* ********* SECTION 02 ******** */
+
+.section-two{
+  margin-top: -100px;
 }
 
 /* ********* VÅRA PROJEKT ******** */
@@ -127,14 +135,15 @@ footer {
   box-shadow: 1px 1px #000;
   transform: translateX(7px) translateY(7px);
 }
-.opacity{
+.opacity {
   opacity: 1;
 }
 /* *********PROVKÖR FRAMTIDEN*********** */
 .test-drive-section {
-  background-image: url(/images/paper_background_section.webp);
+  background-image: url(/images/paper_background_1700.webp);
   background-size: cover;
   background-repeat: no-repeat;
+  min-height: 792px;
   max-height: 1500px;
 }
 .contact-button {
@@ -156,10 +165,40 @@ footer {
   font-family: objektiv-mk1, sans-serif;
   font-weight: 500;
 }
-/* *********************** */
+/* *********** MEDIA ************ */
+@media (min-width: 416px) {
+  .section-two{
+    margin-top: -50px;
+  }
 
+}
+@media (min-width: 460px) {
+  .section-two{
+    margin-top: 0px;
+  }
+}
+@media (min-width: 500px) {
+  .section-two{
+    margin-top: 100px;
+  }
+}
+@media (min-width: 590px) {
+  .section-two{
+    margin-top: 200px;
+  }
+}
+@media (min-width: 650px) {
+  .section-two{
+    margin-top: 300px;
+  }
+}
+@media (min-width: 740px) {
+  .section-two{
+    margin-top: 400px;
+  }
+}
 @media (min-width: 768px) {
-  .mobile-menu{
+  .mobile-menu {
     width: inherit;
   }
   .h1-button {
@@ -167,11 +206,11 @@ footer {
     height: 55px;
     font-size: 29px;
   }
-  
+
   .h1-images {
     display: none;
   }
-  
+
   .h1-image-desktop {
     display: block;
     position: relative;
@@ -179,15 +218,18 @@ footer {
   .test-drive-section {
     height: 1371px;
   }
-  
+
   .header-text {
     position: absolute;
     top: 0;
   }
-  
+
   .header-buttons {
     position: absolute;
     top: 25rem;
+  }
+  .section-two{
+    margin-top: -400px;
   }
   .all-lab-button {
     width: 379px;
@@ -204,6 +246,25 @@ footer {
     width: 210px;
     height: 55px;
     font-size: 28px;
-  
+  }
+}
+@media (min-width: 1000px) {
+  .section-two{
+    margin-top: -200px;
+  }
+}
+@media (min-width: 1250px) {
+  .section-two{
+    margin-top: -100px;
+  }
+}
+@media (min-width: 1430px) {
+  .section-two{
+    margin-top: 100px;
+  }
+}
+@media (min-width: 1650px) {
+  .section-two{
+    margin-top: 300px;
   }
 }
