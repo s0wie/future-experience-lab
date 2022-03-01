@@ -72,6 +72,10 @@ footer {
   color: white;
 }
 
+.project-mobile {
+  width: 100%;
+}
+
 .centered {
   position: absolute;
   top: 50%;
