@@ -109,6 +109,16 @@ footer {
   background-color: var(--pink);
   box-shadow: 7px 7px var(--yellow);
   transition-duration: 0.5s;
+}
+.all-lab-button {
+  width: 270px;
+  height: 36px;
+  font-size: 19px;
+  font-weight: 700;
+  color: var(--pink);
+  background-color: var(--yellow);
+  box-shadow: 7px 7px var(--pink);
+  transition-duration: 0.5s;
   margin-bottom: 50px;
 }
 .lab-button:hover {
@@ -126,15 +136,10 @@ footer {
   height: 792px;
 }
 .contact-button {
-  width: 175px;
-  height: 38px;
+  width: 167px;
+  height: 35px;
   font-size: 18px;
-  font-weight: 700;
-  color: var(--pink);
-  background-color: var(--yellow);
-  box-shadow: 7px 7px var(--pink);
-  transition-duration: 0.5s;
-  margin-bottom: 50px;
+  margin-top: ;
 }
 .contact-button:hover {
   box-shadow: 1px 1px #000;
@@ -158,11 +163,11 @@ footer {
     height: 55px;
     font-size: 29px;
   }
-
+  
   .h1-images {
     display: none;
   }
-
+  
   .h1-image-desktop {
     display: block;
     position: relative;
@@ -170,14 +175,31 @@ footer {
   .test-drive-section {
     height: 1371px;
   }
-
+  
   .header-text {
     position: absolute;
     top: 0;
   }
-
+  
   .header-buttons {
     position: absolute;
     top: 25rem;
+  }
+  .all-lab-button {
+    width: 379px;
+    height: 55px;
+    font-size: 29px;
+    font-weight: 700;
+    color: var(--pink);
+    background-color: var(--yellow);
+    box-shadow: 7px 7px var(--pink);
+    transition-duration: 0.5s;
+    margin-bottom: 50px;
+  }
+  .contact-button {
+    width: 210px;
+    height: 55px;
+    font-size: 28px;
+  
   }
 }
