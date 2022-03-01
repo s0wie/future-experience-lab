@@ -5,8 +5,10 @@
   --black: #1d1d1c;
 }
 
-h1 {
+h1,
+h2 {
   font-family: "forma-djr-banner", sans-serif;
+  letter-spacing: 2px;
 }
 
 p {
@@ -23,11 +25,6 @@ footer {
 
 /* *********************** */
 
-/* ******** NAV *********/
-
-.mobile-menu {
-  width: 100vw;
-}
 /* ******** SECTION 01 *********/
 
 .h1-button {
@@ -39,7 +36,7 @@ footer {
   background-color: var(--yellow);
   box-shadow: 7px 7px var(--pink);
   transition-duration: 0.5s;
-  margin-right: 50px;
+  margin-right: 30px;
 }
 
 .h1-button:hover {
@@ -68,11 +65,6 @@ footer {
 .h1-image-desktop {
   display: none;
 }
-/* ********* SECTION 02 ******** */
-
-.section-two{
-  margin-top: -100px;
-}
 
 /* ********* VÅRA PROJEKT ******** */
 .project-slide {
@@ -94,18 +86,44 @@ footer {
 }
 
 .project-inside {
-  background-color: #e93794;
-  height: 300px;
+  position: absolute;
+  top: 18rem;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .project-title {
   background-color: #ffff37;
+  z-index: 1;
+  text-align: left;
+  font-family: "objektiv-mk1", sans-serif;
+  font-size: 28px;
+  letter-spacing: 1px;
   color: black;
   padding: 1rem;
-  width: 10rem;
+  padding-left: 1.5rem;
+  width: 290px;
+  height: 70px;
   position: absolute;
-  top: 2rem;
+  top: 4rem;
   left: 1rem;
+  box-shadow: 7px 7px 2px rgba(0, 0, 0, 0.1);
+}
+
+.project-sub-title {
+  background-color: #fafafa;
+  z-index: 1;
+  font-family: "objektiv-mk1", sans-serif;
+  font-size: 20px;
+  letter-spacing: 1px;
+  color: var(--pink);
+  padding-top: 10px;
+  width: 132px;
+  height: 48px;
+  position: absolute;
+  top: 9.5rem;
+  left: 1rem;
+  box-shadow: 7px 7px 2px rgba(0, 0, 0, 0.1);
 }
 /* *********************** */
 
@@ -119,11 +137,19 @@ footer {
   background-color: var(--pink);
   box-shadow: 7px 7px var(--yellow);
   transition-duration: 0.5s;
+  margin-bottom: 50px;
 }
-.all-lab-button {
-  width: 270px;
-  height: 36px;
-  font-size: 19px;
+
+.test-drive-section {
+  background-image: url(/images/paper_background_section.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 792px;
+}
+.contact-btn {
+  width: 175px;
+  height: 38px;
+  font-size: 18px;
   font-weight: 700;
   color: var(--pink);
   background-color: var(--yellow);
@@ -131,31 +157,6 @@ footer {
   transition-duration: 0.5s;
   margin-bottom: 50px;
 }
-.lab-button:hover {
-  box-shadow: 1px 1px #000;
-  transform: translateX(7px) translateY(7px);
-}
-.opacity {
-  opacity: 1;
-}
-/* *********PROVKÖR FRAMTIDEN*********** */
-.test-drive-section {
-  background-image: url(/images/paper_background_1700.webp);
-  background-size: cover;
-  background-repeat: no-repeat;
-  min-height: 792px;
-  max-height: 1500px;
-}
-.contact-button {
-  width: 167px;
-  height: 35px;
-  font-size: 18px;
-}
-.contact-button:hover {
-  box-shadow: 1px 1px #000;
-  transform: translateX(7px) translateY(7px);
-}
-/* ********* FOOTER *********** */
 
 .footer-tagline {
   font-family: "forma-djr-banner", sans-serif;
@@ -165,41 +166,11 @@ footer {
   font-family: objektiv-mk1, sans-serif;
   font-weight: 500;
 }
-/* *********** MEDIA ************ */
-@media (min-width: 416px) {
-  .section-two{
-    margin-top: -50px;
-  }
+/* *********************** */
 
-}
-@media (min-width: 460px) {
-  .section-two{
-    margin-top: 0px;
-  }
-}
-@media (min-width: 500px) {
-  .section-two{
-    margin-top: 100px;
-  }
-}
-@media (min-width: 590px) {
-  .section-two{
-    margin-top: 200px;
-  }
-}
-@media (min-width: 650px) {
-  .section-two{
-    margin-top: 300px;
-  }
-}
-@media (min-width: 740px) {
-  .section-two{
-    margin-top: 400px;
-  }
-}
 @media (min-width: 768px) {
-  .mobile-menu {
-    width: inherit;
+  .test-drive-section {
+    background-image: url("images/paper_background_1700.png");
   }
   .h1-button {
     width: 168px;
@@ -227,44 +198,5 @@ footer {
   .header-buttons {
     position: absolute;
     top: 25rem;
-  }
-  .section-two{
-    margin-top: -400px;
-  }
-  .all-lab-button {
-    width: 379px;
-    height: 55px;
-    font-size: 29px;
-    font-weight: 700;
-    color: var(--pink);
-    background-color: var(--yellow);
-    box-shadow: 7px 7px var(--pink);
-    transition-duration: 0.5s;
-    margin-bottom: 50px;
-  }
-  .contact-button {
-    width: 210px;
-    height: 55px;
-    font-size: 28px;
-  }
-}
-@media (min-width: 1000px) {
-  .section-two{
-    margin-top: -200px;
-  }
-}
-@media (min-width: 1250px) {
-  .section-two{
-    margin-top: -100px;
-  }
-}
-@media (min-width: 1430px) {
-  .section-two{
-    margin-top: 100px;
-  }
-}
-@media (min-width: 1650px) {
-  .section-two{
-    margin-top: 300px;
   }
 }
