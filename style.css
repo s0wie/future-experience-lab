@@ -22,7 +22,9 @@ footer {
 }
 
 /* *********************** */
-
+.mobile-menu{
+  width: 100vw;
+}
 /* ******** SECTION 01 *********/
 
 .h1-button {
@@ -139,7 +141,6 @@ footer {
   width: 167px;
   height: 35px;
   font-size: 18px;
-  margin-top: ;
 }
 .contact-button:hover {
   box-shadow: 1px 1px #000;
@@ -158,6 +159,9 @@ footer {
 /* *********************** */
 
 @media (min-width: 768px) {
+  .mobile-menu{
+    width: inherit;
+  }
   .h1-button {
     width: 168px;
     height: 55px;
