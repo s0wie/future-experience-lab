@@ -111,14 +111,21 @@ footer {
   transition-duration: 0.5s;
   margin-bottom: 50px;
 }
-
+.lab-button:hover {
+  box-shadow: 1px 1px #000;
+  transform: translateX(7px) translateY(7px);
+}
+.opacity{
+  opacity: 1;
+}
+/* *********PROVKÖR FRAMTIDEN*********** */
 .test-drive-section {
   background-image: url(/images/paper_background_section.webp);
   background-size: cover;
   background-repeat: no-repeat;
   height: 792px;
 }
-.contact-btn {
+.contact-button {
   width: 175px;
   height: 38px;
   font-size: 18px;
@@ -129,6 +136,11 @@ footer {
   transition-duration: 0.5s;
   margin-bottom: 50px;
 }
+.contact-button:hover {
+  box-shadow: 1px 1px #000;
+  transform: translateX(7px) translateY(7px);
+}
+/* ********* FOOTER *********** */
 
 .footer-tagline {
   font-family: "forma-djr-banner", sans-serif;
