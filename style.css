@@ -135,7 +135,7 @@ footer {
   background-image: url(/images/paper_background_section.webp);
   background-size: cover;
   background-repeat: no-repeat;
-  height: 792px;
+  max-height: 1500px;
 }
 .contact-button {
   width: 167px;
