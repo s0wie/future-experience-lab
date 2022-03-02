@@ -150,14 +150,14 @@ footer {
 /* *********************** */
 
 /* *********VÅRA LAB ******* */
-.lab-button {
-  width: 185px;
-  height: 33px;
+.all-lab-button {
+  width: 270px;
+  height: 36px;
   font-size: 18px;
   font-weight: 700;
-  color: var(--yellow);
-  background-color: var(--pink);
-  box-shadow: 7px 7px var(--yellow);
+  color: var(--pink);
+  background-color: var(--yellow);
+  box-shadow: 7px 7px var(--pink);
   transition-duration: 0.5s;
   margin-bottom: 50px;
 }
@@ -168,7 +168,7 @@ footer {
   background-repeat: no-repeat;
   height: 792px;
 }
-.contact-btn {
+.contact-button {
   width: 175px;
   height: 38px;
   font-size: 18px;
@@ -220,5 +220,18 @@ footer {
   .header-buttons {
     position: absolute;
     top: 25rem;
+
+  }
+  .contact-button {
+    width: 195px;
+    height: 55px;
+    font-size: 29px;
+
+  }
+  .all-lab-button {
+    width: 379px;
+    height: 55px;
+    font-size: 29px;
+
   }
 }
