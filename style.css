@@ -125,6 +125,15 @@ footer {
   left: 1rem;
   box-shadow: 7px 7px 2px rgba(0, 0, 0, 0.1);
 }
+
+.project-inside-text {
+  text-align: left;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  position: absolute;
+  bottom: 6rem;
+}
+
 /* *********************** */
 
 /* *********VÅRA LAB ******* */
