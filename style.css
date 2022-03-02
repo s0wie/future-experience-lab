@@ -166,6 +166,7 @@ footer {
   transform: translateX(7px) translateY(7px);
 }
 
+/* ********** PROVKÖR ************* */
 .test-drive-section {
   background-image: url(/images/paper_background_section.webp);
   background-size: cover;
@@ -187,6 +188,7 @@ footer {
   box-shadow: 1px 1px #000;
   transform: translateX(7px) translateY(7px);
 }
+/* ********** FOOTER ************* */
 
 .footer-tagline {
   font-family: "forma-djr-banner", sans-serif;
