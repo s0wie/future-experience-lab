@@ -76,6 +76,7 @@ footer {
 
 .project-mobile {
   width: 100%;
+  height: 700px;
 }
 
 .centered {
@@ -126,12 +127,24 @@ footer {
   box-shadow: 7px 7px 2px rgba(0, 0, 0, 0.1);
 }
 
+.project-arrow {
+  background-color: #fafafa;
+  width: 64px;
+  height: 48px;
+  display: flex;
+  padding: 15px;
+  box-shadow: 7px 7px 2px rgba(0, 0, 0, 0.1);
+  position: absolute;
+  right: 0;
+  top: 15rem;
+}
+
 .project-inside-text {
   text-align: left;
   padding-left: 2rem;
   padding-right: 2rem;
   position: absolute;
-  bottom: 6rem;
+  top: 27rem;
 }
 
 /* *********************** */
