@@ -179,7 +179,7 @@ footer {
 
 /* ********** PROVKÖR ************* */
 .test-drive-section {
-  background-image: url(/images/paper_background_section.webp);
+  background-image: url(/images/paper_background_1700.webp);
   background-size: cover;
   background-repeat: no-repeat;
   height: 792px;
@@ -213,7 +213,7 @@ footer {
 
 @media (min-width: 768px) {
   .test-drive-section {
-    background-image: url("images/paper_background_1700.png");
+    background-image: url("images/paper_background_1700.webp");
   }
   .h1-button {
     width: 168px;
