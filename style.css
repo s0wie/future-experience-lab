@@ -11,6 +11,15 @@ h2 {
   letter-spacing: 2px;
 }
 
+.font-forma {
+  font-family: "forma-djr-banner", sans-serif;
+  letter-spacing: 2px;
+}
+
+.font-objektiv {
+  font-family: "objektiv-mk1", sans-serif;
+}
+
 p {
   font-family: "objektiv-mk1", sans-serif;
 }
@@ -21,6 +30,10 @@ body {
 
 footer {
   width: 100%;
+}
+
+.box-shadow {
+  box-shadow: 7px 7px 2px rgba(0, 0, 0, 0.1);
 }
 
 /* *********************** */
@@ -111,6 +124,22 @@ footer {
   box-shadow: 7px 7px 2px rgba(0, 0, 0, 0.1);
 }
 
+.project-title-desktop {
+  background-color: #ffff37;
+  z-index: 1;
+  text-align: center;
+  font-family: "objektiv-mk1", sans-serif;
+  font-size: 54px;
+  letter-spacing: 1px;
+  color: black;
+  padding-top: 5px;
+  width: 466px;
+  height: 98px;
+  position: absolute;
+  top: 6rem;
+  box-shadow: 7px 7px 2px rgba(0, 0, 0, 0.1);
+}
+
 .project-sub-title {
   background-color: #fafafa;
   z-index: 1;
@@ -124,6 +153,22 @@ footer {
   position: absolute;
   top: 9.5rem;
   left: 1rem;
+  box-shadow: 7px 7px 2px rgba(0, 0, 0, 0.1);
+}
+
+.project-sub-title-desktop {
+  background-color: #fafafa;
+  z-index: 1;
+  font-family: "objektiv-mk1", sans-serif;
+  font-size: 24px;
+  text-align: center;
+  letter-spacing: 1px;
+  color: var(--pink);
+  padding-top: 10px;
+  width: 165px;
+  height: 61px;
+  position: absolute;
+  top: 9.5rem;
   box-shadow: 7px 7px 2px rgba(0, 0, 0, 0.1);
 }
 
