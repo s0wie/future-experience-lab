@@ -154,6 +154,10 @@ footer {
   top: 27rem;
 }
 
+.section-3-desktop {
+  display: none;
+}
+
 /* *********************** */
 
 /* *********VÅRA LAB ******* */
