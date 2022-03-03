@@ -106,6 +106,13 @@ footer {
   transform: translate(-50%, -50%);
 }
 
+.project-inside-desktop {
+  position: absolute;
+  top: 23rem;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 .project-title {
   background-color: #ffff37;
   z-index: 1;
@@ -168,7 +175,7 @@ footer {
   width: 165px;
   height: 61px;
   position: absolute;
-  top: 9.5rem;
+  top: 14rem;
   box-shadow: 7px 7px 2px rgba(0, 0, 0, 0.1);
 }
 
@@ -197,6 +204,14 @@ footer {
   padding-right: 2rem;
   position: absolute;
   top: 27rem;
+}
+
+.project-inside-text-desktop {
+  text-align: left;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  position: absolute;
+  top: 38rem;
 }
 
 .section-3-desktop {
