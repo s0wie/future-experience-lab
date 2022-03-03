@@ -137,6 +137,13 @@ footer {
   position: absolute;
   right: 0;
   top: 15rem;
+  z-index: 1;
+  transition-duration: 0.5s;
+}
+
+.project-arrow:hover {
+  box-shadow: 1px 1px #fafafa;
+  transform: translateX(7px) translateY(7px);
 }
 
 .project-inside-text {
@@ -221,4 +228,21 @@ footer {
     position: absolute;
     top: 25rem;
   }
+  /* SECTION 03 **VÅRA PROJEKT** */
+  .section-3-mobile {
+    display: none;
+  }
+
+  .section-3-desktop {
+    display: flex;
+    justify-content: center;
+  }
+
+  .project-group {
+    width: 340px;
+    height: 946px;
+    background-color: var(--pink);
+  }
+
+  /* ************************** */
 }
