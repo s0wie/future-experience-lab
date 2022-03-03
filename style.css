@@ -157,25 +157,30 @@ footer {
 /* *********************** */
 
 /* *********VÅRA LAB ******* */
-.lab-button {
-  width: 185px;
-  height: 33px;
+.all-lab-button {
+  width: 270px;
+  height: 36px;
   font-size: 18px;
   font-weight: 700;
-  color: var(--yellow);
-  background-color: var(--pink);
-  box-shadow: 7px 7px var(--yellow);
+  color: var(--pink);
+  background-color: var(--yellow);
+  box-shadow: 7px 7px var(--pink);
   transition-duration: 0.5s;
   margin-bottom: 50px;
 }
+.all-lab-button:hover {
+  box-shadow: 1px 1px #000;
+  transform: translateX(7px) translateY(7px);
+}
 
+/* ********** PROVKÖR ************* */
 .test-drive-section {
   background-image: url(/images/paper_background_section.webp);
   background-size: cover;
   background-repeat: no-repeat;
   height: 792px;
 }
-.contact-btn {
+.contact-button {
   width: 175px;
   height: 38px;
   font-size: 18px;
@@ -186,6 +191,11 @@ footer {
   transition-duration: 0.5s;
   margin-bottom: 50px;
 }
+.contact-button:hover {
+  box-shadow: 1px 1px #000;
+  transform: translateX(7px) translateY(7px);
+}
+/* ********** FOOTER ************* */
 
 .footer-tagline {
   font-family: "forma-djr-banner", sans-serif;
@@ -245,4 +255,14 @@ footer {
   }
 
   /* ************************** */
+  .contact-button {
+    width: 195px;
+    height: 55px;
+    font-size: 29px;
+  }
+  .all-lab-button {
+    width: 379px;
+    height: 55px;
+    font-size: 29px;
+  }
 }
